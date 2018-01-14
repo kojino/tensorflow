@@ -1877,6 +1877,10 @@ tf_module {
     argspec: "args=[\'sp_a\', \'b\', \'adjoint_a\', \'adjoint_b\', \'name\'], varargs=None, keywords=None, defaults=[\'False\', \'False\', \'None\'], "
   }
   member_method {
+    name: "sparse_tensor_dense_tensordot"
+    argspec: "args=[\'sp_a\', \'b\', \'axes\', \'name\'], varargs=None, keywords=None, defaults=[\'None\'], "
+  }
+  member_method {
     name: "sparse_tensor_to_dense"
     argspec: "args=[\'sp_input\', \'default_value\', \'validate_indices\', \'name\'], varargs=None, keywords=None, defaults=[\'0\', \'True\', \'None\'], "
   }

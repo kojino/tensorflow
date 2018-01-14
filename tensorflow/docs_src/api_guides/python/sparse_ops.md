@@ -41,5 +41,6 @@ dimension, and dense along all other dimensions.
 *   @{tf.sparse_add}
 *   @{tf.sparse_softmax}
 *   @{tf.sparse_tensor_dense_matmul}
+*   @{tf.sparse_tensor_dense_tensordot}
 *   @{tf.sparse_maximum}
 *   @{tf.sparse_minimum}
